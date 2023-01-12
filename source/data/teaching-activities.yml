@@ -18,7 +18,7 @@ translations:
   supervisor: Supervisor
 
 
-theses:
+#theses:
 
 #- title: Interactive Rendering for dynamic Annotation in 2.5D Circular Bundleviews
 #  student: Anne Gropler
