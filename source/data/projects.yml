@@ -1,0 +1,93 @@
+---
+heading: Projects
+
+projects:
+
+- key: glbinding2014
+  title: glbinding
+  date: '2014-05-02'
+  status: ongoing
+  caption: I initiated, (co-)designed, and continue to maintain this state-of-the-art, cross-platform C++ binding for the OpenGL API.
+  authors:
+  - Daniel Limberger
+  - Willy Scheibel
+  - Roland Lux
+  thumbnail: 2014-glbinding.jpg
+  flickr: '72157650197067747'
+  href: https://github.com/hpicgs/glbinding
+
+
+- key: globjects2013
+  title: globjects
+  date: '2013-05-07'
+  status: ongoing
+  caption: A cross-platform C++ interface for OpenGL's programmable pipeline that I (co-)designed and continue to support.
+  authors:
+  - Willy Scheibel
+  - Roland Lux
+  - Daniel Limberger
+  thumbnail: 2013-globjects.jpg
+  href: https://github.com/hpicgs/globjects
+
+
+- key: osghimmel2011
+  title: OSG Himmel
+  date: '2011-08-29'
+  caption: OSG library featuring dynamic, immersive, textured or date-time and location based, procedural skies.
+  authors:
+  - Daniel Limberger
+  thumbnail: 2011-osghimmel.jpg
+  href: https://github.com/hpicgs/osghimmel
+
+
+- key: pathgl2013
+  title: Path Tracing Test
+  date: '2013-07-05'
+  caption: Basic test for progressive path tracing of triangle-based meshes, running on the GPU using OpenGL.
+  authors:
+  - Daniel Limberger
+  thumbnail: 2013-pathgl.jpg
+  flickr: '72157648293674913'
+  href: https://github.com/cgcostume/pathgl
+
+
+- key: gameprogramming2014
+  title: Game Programming
+  date: '2014-04-02'
+  caption: While enjoying co-lecturing multiple Game Programming Seminars, I like editing videos to promote these rare seminars.
+  authors:
+  - Daniel Limberger
+  thumbnail: 2014-gameprogramming.jpg
+  href: https://www.youtube.com/watch?v=wWwM2787v-Q
+
+
+- key: vissoft2014
+  title: Publicity & Web Chair
+  date: '2014-08-01'
+  caption: Disseminatied conference information and redesigned the Logo and Website of the IEEE Conf. on Software Visualization.
+  authors:
+  - Daniel Limberger
+  thumbnail: 2014-vissoft-chair.jpg
+  href: http://vissoft.iro.umontreal.ca/
+
+
+- key: tangible2015
+  title: Tangible Treemaps
+  date: '2015-08-01'
+  caption: We experimented with 3d printed, colored, and labeled 2.5D treemaps by means of feasibility and interaction.
+  authors:
+  - Daniel Limberger
+  - Alexander Lehmann
+  - Jan Philipp Sachse
+  thumbnail: 2015-tangible-2-5d-treemaps.jpg
+  flickr: '72157663031253454'
+
+
+- key: minature2011
+  title: Miniature Baby Print
+  date: '2011-12-19'
+  caption: In 2011 I created my first miniature 3D print of my two month old daughter as a present for her grand parents.
+  authors:
+  - Daniel Limberger
+  thumbnail: 2011-minature-baby-print.jpg
+  href: https://www.youtube.com/watch?v=qmHODSMQMUk
