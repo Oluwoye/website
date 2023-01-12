@@ -18,12 +18,12 @@ translations:
   supervisor: Supervisor
 
 
-#theses:
+theses:
 
-#- title: Interactive Rendering for dynamic Annotation in 2.5D Circular Bundleviews
-#  student: Anne Gropler
-#  year: 2014
-#  tags: ba, thesis, supervisor
+- title: Natural Counterfactual Explanations
+  student: tba
+  year: 2023
+  tags: ma, thesis, supervisor
 
 
 terms:
