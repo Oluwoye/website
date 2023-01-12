@@ -1,9 +1,9 @@
 
 
-picture: daniel-limberger-2019-03-stylized.webp
+picture: timcech.webp
 picture_input: daniel-limberger-2019-03.webp
-picture_label: Photo of Daniel Limberger, March 2019
-picture_copyright: March 2019, Kathleen Friedrich
+picture_label: Photo of Tim Cech, July 2021
+picture_copyright: 
 
 # picture: daniel-limberger-2016-02.webp
 # picture_label: Photo of Daniel Limberger, February 2016
@@ -18,11 +18,11 @@ picture_copyright: March 2019, Kathleen Friedrich
 # picture_copyright: July 2009, Kay Herschelmann
 
 
-name: Daniel
-surname: Limberger
+name: Tim
+surname: Cech
 leads:
-- Graphics Systems Engineer
-- Visual Analytics Researcher
+- Data Engineer
+- Explainable Artificial Intelligence Researcher
 
 
 sources: https://github.com/cgcostume/portfolio/

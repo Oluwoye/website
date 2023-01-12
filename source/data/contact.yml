@@ -2,15 +2,15 @@
 vcard: /vcard.vcf
 vcard_label: vCard
 
-email: cgdaniel@outlook.com
+email: tim.cech@hpi.uni-potsdam.de
 email_label: E-Mail
 
-phone: +49 163 568 2818
+phone: +49 176 540 76ß 48
 phone_label: Phone
 
 refs:
 - name: GitHub
-  href: https://github.com/cgcostume
+  href: https://github.com/Oluwoye
 - name: Flickr
   href: https://www.flickr.com/photos/131006004@N06/albums
 - name: YouTube
