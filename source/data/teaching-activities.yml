@@ -33,7 +33,7 @@ terms:
   - course: Explainable AI by Visual Analytics
     tags: xai, seminar, ma, tutor, supervisor
     
-- term: '2021/22 | Summer Term'
+- term: '2022 | Summer Term'
   courses:
   - course: Programming Techniques II
     tags: engineering, lecture, ba, co-lecturer
@@ -47,4 +47,10 @@ terms:
     tags: engineering, xai, seminar, ba, tutor, supervisor
     grade_overall: 1.4
     grade_personal: 1.0
+    
+- term: '2021/22 | Winter Term'
+  courses:
+  - course: Introduction to Data Visualization
+    tags: xai, lecture, ma, tutor, supervisor
+    grade_overall: 1.8
 
