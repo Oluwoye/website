@@ -9,7 +9,7 @@ publications:
 - key: 2023-ivapp-evaluating-ssnp
   bibtex: atzberger2023-code-similarity
   title: 'Evaluating Architectures and Hyperparameters of Self-supervised Network Projections'
-  date: 'In press'
+  date: ''
   authors:
   - Tim Cech
   - Daniel Atzberger
@@ -22,7 +22,9 @@ publications:
     embedding that generates visually separated clusters. In this work, we extend an approach that uses cluster information as pseudo-labels for SSNP by taking outlier information into account. Furthermore, we investigate the influence of different autoencoders on the quality of 
     the generated two-dimensional layouts. We report on two experiments on the autoencoder's architecture and hyperparameters, respectively, measuring nine metrics on eight labeled datasets from different domains, e.g., Natural Language Processing. The results indicate that the 
     model's architecture and the choice of hyperparameter values can influence the layout with statistical significance, but none achieves the best result over all metrics. In addition, we found out that using outlier information for the pseudo-labeling approach can maintain 
-    global properties of the two-dimensional layout while trading-off local properties. 
+    global properties of the two-dimensional layout while trading-off local properties.
+    
+    In press 
   thumbnail: 2023-ivapp-evaluating-ssnp.webp
 
 - key: 2022-vinci-topicmodel-benchmark
@@ -30,12 +32,13 @@ publications:
   title: 'A Benchmark for the Use of Topic Models for Text Visualization Tasks'
   date: '2022-08-16'
   authors:
-  - Daniel Atzberger
-  - Tim Cech
+  - Daniel Atzberger [1]
+  - Tim Cech [1]
   - Willy Scheibel
   - Daniel Limberger
-  - Jürgen Döllner
   - Matthias Trapp
+  - Jürgen Döllner
+  - [1] Both authors contributed equally to this work
   published: Proc. ACM Int. Symp. on Visual Information Communication and Interaction (VINCI)
   abstract:
     Based on the assumption that semantic relatedness between documents is reflected in the distribution of the vocabulary, topic models are a widely used technique for different analysis tasks.
@@ -45,6 +48,11 @@ publications:
     relatedness between the documents.
     In this work, we propose a benchmark comprising various datasets, layout techniques, and quality metrics for conducting an empirical study on different such layout algorithms.
   thumbnail: 2022-vinci-topicmodel-benchmark.webp
+  downloads:
+    - href: https://doi.org/10.1145/3554944.3554961
+      desc: DOI
+    - href: https://dl.acm.org/doi/pdf/10.1145/3554944.3554961
+      desc: Paper
   
 - key: 2023-ivapp-software-forest-extended
   bibtex: atzberger2023-code-similarity
@@ -70,7 +78,7 @@ publications:
 - key: 2022-scam-codecv
   bibtex: atzberger2022-mining-expertise
   title: 'CodeCV: Mining Expertise of GitHub Users from Coding Activities'
-  date: 'In press'
+  date: ''
   authors:
   - Daniel Atzberger
   - Nico Scordialo
@@ -85,7 +93,9 @@ publications:
     activity and metadata and do not provide explanations for their results. In this work, we present CodeCV, an approach to analyzing the commit activities of a GitHub user concerning the use of programming languages, software libraries, and higher-level concepts, e.g., Machine 
     Learning or Cryptocurrency. Skills in using software libraries and programming languages are analyzed based on syntactic structures in the source code. Based on Labeled Latent Dirichlet Allocation, an automatically generated corpus of GitHub projects is used to learn the 
     concept-specific vocabulary in identifier names and comments. This enables the capture of expertise on abstract concepts from a user's commit history. CodeCV further explains the results through links to the relevant commits in an interactive web dashboard. We tested our 
-    system on selected GitHub users who mainly contribute to popular projects to demonstrate that our approach is able to capture developers' expertise effectively. 
+    system on selected GitHub users who mainly contribute to popular projects to demonstrate that our approach is able to capture developers' expertise effectively.
+    
+    In press 
   thumbnail: 2022-scam-codecv.webp
   
 - key: 2022-ivapp-knowhow-map
