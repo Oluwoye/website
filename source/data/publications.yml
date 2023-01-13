@@ -88,7 +88,7 @@ publications:
     system on selected GitHub users who mainly contribute to popular projects to demonstrate that our approach is able to capture developers' expertise effectively. 
   thumbnail: 2022-scam-codecv.webp
   
-  - key: 2022-ivapp-knowhow-map
+- key: 2022-ivapp-knowhow-map
   bibtex: atzberger2022-knowhow-map
   title: 'Visualization of Knowledge Distribution across Development Teams using 2.5D Semantic Software Maps'
   date: '2022-02-08'
