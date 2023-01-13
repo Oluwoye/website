@@ -110,11 +110,11 @@ mixin tdStats(countsBA, countsMA)
 
     if selected === true
       p.text-start
-        | For nearly a decade, I have supported and actively steered the teaching efforts within the Computer Graphics Systems Group at the Hasso Plattner Institute.
-        | The following shows a summary of selected teaching activities from 2012 to 2022:
+        | Since the winter term 2021/22, I have supported and actively steered the teaching efforts within the Computer Graphics Systems Group at the Hasso Plattner Institute.
+        | The following shows a summary of selected teaching activities from 2021 to date:
     else
       p.text-start
-        | For nearly a decade, I have supported and actively steered the teaching efforts within the Computer Graphics Systems Group at the Hasso Plattner Institute.
+        | Since the winter term 2021/22, I have supported and actively steered the teaching efforts within the Computer Graphics Systems Group at the Hasso Plattner Institute.
         | The following shows a comprehensive list of my teaching activities:
 
 if selected === true
@@ -130,11 +130,11 @@ if selected === true
             th(scope = 'col').ba #[span.d-block.d-lg-none Bachelor]#[span.d-none.d-lg-block Bachelors's Program]
             th(scope = 'col').ma #[span.d-block.d-lg-none Master]#[span.d-none.d-lg-block Masters's Program]
         tbody
-          tr
+          // tr
             td(rowspan = '2').border-end.pe-2 #[span.text-muted Real-time] Computer Graphics
             td.ps-2 Lecturer
             +tdStats(grades.ba.graphics.lecturer, grades.ma.graphics.lecturer)
-          tr
+          // tr
             td.ps-2 Tutor and/or Co-Lecturer
             +tdStats(grades.ba.graphics.others, grades.ma.graphics.others)
           tr
@@ -142,9 +142,9 @@ if selected === true
             td.ps-2 Tutor and/or Co-Lecturer
             +tdStats(grades.ba.engineering.others, grades.ma.engineering.others)
           tr
-            td.pe-2 Visualization &amp; Visual Analytics
+            td.pe-2 Explainable AI &amp; Visual Analytics
             td.ps-2 Tutor and/or Co-Lecturer
-            +tdStats(grades.ba.visualization.others, grades.ma.visualization.others)
+            +tdStats(grades.ba.xai.others, grades.ma.xai.others)
         tfoot
           tr
             td.pe-2 #[span.text-muted Bachelor's and Master's] Projects
