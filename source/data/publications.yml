@@ -76,4 +76,92 @@ publications:
     Though different variants for 3D glyphs can be applied, we focus on cylinders, trees, and avatars. 
     We discuss various mappings of data associated with source code documents to the visual variables of 3D glyphs for selected use cases and provide details on our visualization system. 
   thumbnail: 2023-ivapp-software-forest-extended.webp
+  
+- key: 2023-ivapp-software-forest-extended
+  bibtex: atzberger2023-code-similarity
+  title: 'Visualization of Source Code Similarity using 2.5D Semantic Software Maps'
+  date: '2023-02-01'
+  authors:
+  - Daniel Atzberger
+  - Tim Cech
+  - Willy Scheibel
+  - Daniel Limberger
+  - Jürgen Döllner
+  published: 'VISIGRAPP 2021: Computer Vision, Imaging and Computer Graphics Theory and Applications'
+  abstract:
+    For various program comprehension tasks, software visualization techniques can be beneficial by displaying aspects related to the behavior, structure, or evolution of software. 
+    In many cases, the question is related to the semantics of the source code files, e.g., the localization of files that implement specific features or the detection of files with similar semantics. 
+    This work presents a general software visualization technique for source code documents, which uses 3D glyphs placed on a two-dimensional reference plane. 
+    The relative positions of the glyphs captures their semantic relatedness. 
+    Our layout originates from applying Latent Dirichlet Allocation and Multidimensional Scaling on the comments and identifier names found in the source code files. 
+    Though different variants for 3D glyphs can be applied, we focus on cylinders, trees, and avatars. 
+    We discuss various mappings of data associated with source code documents to the visual variables of 3D glyphs for selected use cases and provide details on our visualization system. 
+  thumbnail: 2023-ivapp-software-forest-extended.webp
+
+- key: 2023-ivapp-software-forest-extended
+  bibtex: atzberger2023-code-similarity
+  title: 'Visualization of Source Code Similarity using 2.5D Semantic Software Maps'
+  date: '2023-02-01'
+  authors:
+  - Daniel Atzberger
+  - Tim Cech
+  - Willy Scheibel
+  - Daniel Limberger
+  - Jürgen Döllner
+  published: 'VISIGRAPP 2021: Computer Vision, Imaging and Computer Graphics Theory and Applications'
+  abstract:
+    For various program comprehension tasks, software visualization techniques can be beneficial by displaying aspects related to the behavior, structure, or evolution of software. 
+    In many cases, the question is related to the semantics of the source code files, e.g., the localization of files that implement specific features or the detection of files with similar semantics. 
+    This work presents a general software visualization technique for source code documents, which uses 3D glyphs placed on a two-dimensional reference plane. 
+    The relative positions of the glyphs captures their semantic relatedness. 
+    Our layout originates from applying Latent Dirichlet Allocation and Multidimensional Scaling on the comments and identifier names found in the source code files. 
+    Though different variants for 3D glyphs can be applied, we focus on cylinders, trees, and avatars. 
+    We discuss various mappings of data associated with source code documents to the visual variables of 3D glyphs for selected use cases and provide details on our visualization system. 
+  thumbnail: 2023-ivapp-software-forest-extended.webp
+
+- key: 2022-iccsa-prometheus
+  bibtex: jobst2022-github-crawling
+  title: 'Efficient GitHub Crawling using the GraphQL API'
+  date: '2022-07-26'
+  authors:
+  - Adrian Jobst
+  - Daniel Atzberger
+  - Tim Cech
+  - Willy Scheibel
+  - Matthias Trapp
+  - Jürgen Döllner
+  published: '22th International Conference on Computational Science and Its Applications (ICCSA) 2022'
+  abstract:
+    The number of publicly accessible software repositories on online platforms is growing rapidly. With more than 128 million public repositories (as of March 2020), GitHub is the world’s largest platform for hosting and managing software projects. Where it used to be necessary 
+    to merge various data sources, it is now possible to access a wealth of data using the GitHub API alone. However, collecting and analyzing this data is not an easy endeavor. In this paper, we present Prometheus, a system for crawling and storing software repositories from 
+    GitHub. Compared to existing frameworks, Prometheus follows an event-driven microservice architecture. By separating functionality on the service level, there is no need to understand implementation details or use existing frameworks to extend or customize the system, only 
+    data. Prometheus consists of two components, one for fetching GitHub data and one for data storage which serves as a basis for future functionality. Unlike most existing crawling approaches, the Prometheus fetching service uses the GitHub GraphQL API. As a result, Prometheus 
+    can significantly outperform alternatives in terms of throughput in some scenarios. 
+  thumbnail: 2022-iccsa-prometheus.webp
+  downloads:
+    - href: https://doi.org/10.1007/978-3-031-10548-7_48
+      desc: DOI
+  
+- key: 2021-ivapp-software-forest
+  bibtex: atzberger2021-software-forest
+  title: 'Software Forest: A Visualization of Semantic Similarities in Source Code using a Tree Metaphor'
+  date: '2021-01-01'
+  authors:
+  - Daniel Atzberger
+  - Tim Cech
+  - Merlin de la Haye
+  - Maximilian Söchting
+  - Willy Scheibel
+  - Daniel Limberger
+  - Jürgen Döllner
+  published: '12th International Conference on Information Visualization Theory and Applications (IVAPP) 2021'
+  abstract:
+    Software visualization techniques provide effective means for program comprehension tasks as they allow developers to interactively explore large code bases. A frequently encountered task during software development is the detection of source code files of similar semantic. 			
+    To assist this task we present Software Forest, a novel 2.5D software visualization that enables interactive exploration of semantic similarities within a software system, illustrated as a forest. The underlying layout results from the analysis of the vocabulary of the 
+    software documents using Latent Dirichlet Allocation and Multidimensional Scaling and therefore reflects the semantic similarity between source code files. By mapping properties of a software entity, e.g., size metrics or trend data, to visual variables encoded by various, 
+    figurative tree meshes, aspects of a software system can be displayed. This concept is complemented with implementation details as well as a discussion on applications. 
+  thumbnail: 2021-ivapp-software-forest.webp
+  downloads:
+    - href: https://doi.org/10.5220/0010267601120122
+      desc: DOI
 
