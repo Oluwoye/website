@@ -3,16 +3,15 @@ heading: Repositories
 
 repositories:
 
-- key: glbinding2014
+- key: SSNP_IVAPP2023
   selected: true
-  title: glbinding
-  date: '2014-05-02'
+  title: SSNP_IVAPP2023
+  date: '2023-13-01'
   status: ongoing
-  caption: I initiated, (co-)designed, and continue to maintain this state-of-the-art, cross-platform C++ binding for the OpenGL API.
+  caption: A small research prototype for SSNP with several labeling techniques
   authors:
-  - Daniel Limberger
+  - Tim Cech
   - Willy Scheibel
-  - Roland Lux
   # thumbnail: 2014-glbinding.jpg
   # flickr: '72157650197067747'
   # href: https://github.com/hpicgs/glbinding
