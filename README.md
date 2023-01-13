@@ -8,10 +8,11 @@ The complete site's content is based on a json/yaml file per section (e.g., `con
 ## Examples
 
 * [Carolin Fiedler](http://www.carolinfiedler.de)
-* [Daniel Limberger](http://www.daniellimberger.de) (my personal website)
+* [Daniel Limberger](http://www.daniellimberger.de) 
 * [Willy Scheibel](http://www.willyscheibel.de)
 * [Amir Semmo](http://www.amirsemmo.de)
 * [Maximilian Söchting](http://msoechting.de)
+* [Tim Cech](http://timcech.de)
 
 
 ## Features
