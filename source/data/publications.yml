@@ -6,35 +6,24 @@ scholar: phn3_p8AAAAJ
 
 publications:
 
-
-- key: 2022-ivapp-knowhow-map
-  bibtex: atzberger2022-knowhow-map
-  title: 'Visualization of Knowledge Distribution across Development Teams using 2.5D Semantic Software Maps'
-  date: '2022-02-08'
+- key: 2023-ivapp-evaluating-ssnp
+  bibtex: atzberger2023-code-similarity
+  title: 'Evaluating Architectures and Hyperparameters of Self-supervised Network Projections'
+  date: 'In press'
   authors:
-  - Daniel Atzberger
   - Tim Cech
-  - Adrian Jobst
+  - Daniel Atzberger
   - Willy Scheibel
-  - Daniel Limberger
-  - Matthias Trapp
+  - Rico Richter
   - Jürgen Döllner
-  published: Proc. Int. Conf. on Information Visualization Theory and Applications (IVAPP)
+  published: '14th International Conference on Information Visualization Theory and Applications (IVAPP) 2023'
   abstract:
-    In order to detect software risks at an early stage, various software visualization techniques have been developed for monitoring the structure, behaviour, or the underlying development process of software.
-    One of greatest risks for any IT organization consists in an inappropriate distribution of knowledge among its developers, as a projects' success mainly depends on assigning tasks to developers with the required skills and expertise.
-    In this work, we address this problem by proposing a novel Visual Analytics framework for mining and visualizing the expertise of developers based on their source code activities.
-    Under the assumption that a developer's knowledge about code is represented directly through comments and the choice of identifier names, we generate a 2D layout using Latent Dirichlet Allocation together with Multidimensional Scaling on the commit history, thus displaying the semantic relatedness between developers.
-    In order to capture a developer's expertise in a concept, we utilize Labeled LDA trained on a corpus of Open Source projects.
-    By mapping aspects related to skills onto the visual variables of 3D glyphs, we generate a 2.5D Visualization, we call KnowhowMap.
-    We exemplify this approach with an interactive prototype that enables users to analyze the distribution of skills and expertise in an explorative way.
-  thumbnail: 2022-ivapp-knowhow-map.webp
-  downloads:
-    - href: https://doi.org/10.5220/0010991100003124
-      desc: DOI
-    - href: https://www.researchgate.net/profile/Matthias-Trapp-2/publication/358523984/inline/jsViewer/62061c62afa8884cabd8675c
-      desc: Paper
-
+    Self-Supervised Network Projections (SSNP) are dimensionality reduction algorithms that produce low-dimensional layouts from high-dimensional data. By combining an autoencoder architecture with neighborhood information from a clustering algorithm, SSNP intend to learn an 
+    embedding that generates visually separated clusters. In this work, we extend an approach that uses cluster information as pseudo-labels for SSNP by taking outlier information into account. Furthermore, we investigate the influence of different autoencoders on the quality of 
+    the generated two-dimensional layouts. We report on two experiments on the autoencoder's architecture and hyperparameters, respectively, measuring nine metrics on eight labeled datasets from different domains, e.g., Natural Language Processing. The results indicate that the 
+    model's architecture and the choice of hyperparameter values can influence the layout with statistical significance, but none achieves the best result over all metrics. In addition, we found out that using outlier information for the pseudo-labeling approach can maintain 
+    global properties of the two-dimensional layout while trading-off local properties. 
+  thumbnail: 2023-ivapp-evaluating-ssnp.webp
 
 - key: 2022-vinci-topicmodel-benchmark
   bibtex: atzberger2022-topicmodel-benchmark
@@ -52,30 +41,10 @@ publications:
     Based on the assumption that semantic relatedness between documents is reflected in the distribution of the vocabulary, topic models are a widely used technique for different analysis tasks.
     Their application results in concepts, the so-called topics, and a high-dimensional description of the documents.
     For visualization tasks, they can further be projected onto a lower-dimensional space using a dimension reduction technique.
-    Though the quality of the resulting scatter plot mainly depends on the chosen layout technique and the choice of its hyperparameters, it is unclear which particular combinations of topic models and dimension reduction techniques are suitable for displaying the semantic relatedness between the documents.
+    Though the quality of the resulting scatter plot mainly depends on the chosen layout technique and the choice of its hyperparameters, it is unclear which particular combinations of topic models and dimension reduction techniques are suitable for displaying the semantic 
+    relatedness between the documents.
     In this work, we propose a benchmark comprising various datasets, layout techniques, and quality metrics for conducting an empirical study on different such layout algorithms.
   thumbnail: 2022-vinci-topicmodel-benchmark.webp
-
-- key: 2023-ivapp-software-forest-extended
-  bibtex: atzberger2023-code-similarity
-  title: 'Visualization of Source Code Similarity using 2.5D Semantic Software Maps'
-  date: '2023-02-01'
-  authors:
-  - Daniel Atzberger
-  - Tim Cech
-  - Willy Scheibel
-  - Daniel Limberger
-  - Jürgen Döllner
-  published: 'VISIGRAPP 2021: Computer Vision, Imaging and Computer Graphics Theory and Applications'
-  abstract:
-    For various program comprehension tasks, software visualization techniques can be beneficial by displaying aspects related to the behavior, structure, or evolution of software. 
-    In many cases, the question is related to the semantics of the source code files, e.g., the localization of files that implement specific features or the detection of files with similar semantics. 
-    This work presents a general software visualization technique for source code documents, which uses 3D glyphs placed on a two-dimensional reference plane. 
-    The relative positions of the glyphs captures their semantic relatedness. 
-    Our layout originates from applying Latent Dirichlet Allocation and Multidimensional Scaling on the comments and identifier names found in the source code files. 
-    Though different variants for 3D glyphs can be applied, we focus on cylinders, trees, and avatars. 
-    We discuss various mappings of data associated with source code documents to the visual variables of 3D glyphs for selected use cases and provide details on our visualization system. 
-  thumbnail: 2023-ivapp-software-forest-extended.webp
   
 - key: 2023-ivapp-software-forest-extended
   bibtex: atzberger2023-code-similarity
@@ -98,26 +67,55 @@ publications:
     We discuss various mappings of data associated with source code documents to the visual variables of 3D glyphs for selected use cases and provide details on our visualization system. 
   thumbnail: 2023-ivapp-software-forest-extended.webp
 
-- key: 2023-ivapp-software-forest-extended
-  bibtex: atzberger2023-code-similarity
-  title: 'Visualization of Source Code Similarity using 2.5D Semantic Software Maps'
-  date: '2023-02-01'
+- key: 2022-scam-codecv
+  bibtex: atzberger2022-mining-expertise
+  title: 'CodeCV: Mining Expertise of GitHub Users from Coding Activities'
+  date: 'In press'
+  authors:
+  - Daniel Atzberger
+  - Nico Scordialo
+  - Tim Cech
+  - Willy Scheibel
+  - Matthias Trapp
+  - Jürgen Döllner
+  published: '22nd International Working Conference on Source Code Analysis and Manipulation (SCAM) 2022'
+  abstract:
+    The number of software projects developed collaboratively on social coding platforms is steadily increasing. One of the motivations for developers to participate in open-source software development is to make their development activities easier accessible to potential 
+    employers, e.g., in the form of a resume for their interests and skills. However, manual review of source code activities is time-consuming and requires detailed knowledge of the technologies used. Existing approaches are limited to a small subset of actual source code 
+    activity and metadata and do not provide explanations for their results. In this work, we present CodeCV, an approach to analyzing the commit activities of a GitHub user concerning the use of programming languages, software libraries, and higher-level concepts, e.g., Machine 
+    Learning or Cryptocurrency. Skills in using software libraries and programming languages are analyzed based on syntactic structures in the source code. Based on Labeled Latent Dirichlet Allocation, an automatically generated corpus of GitHub projects is used to learn the 
+    concept-specific vocabulary in identifier names and comments. This enables the capture of expertise on abstract concepts from a user's commit history. CodeCV further explains the results through links to the relevant commits in an interactive web dashboard. We tested our 
+    system on selected GitHub users who mainly contribute to popular projects to demonstrate that our approach is able to capture developers' expertise effectively. 
+  thumbnail: 2022-scam-codecv.webp
+  
+  - key: 2022-ivapp-knowhow-map
+  bibtex: atzberger2022-knowhow-map
+  title: 'Visualization of Knowledge Distribution across Development Teams using 2.5D Semantic Software Maps'
+  date: '2022-02-08'
   authors:
   - Daniel Atzberger
   - Tim Cech
+  - Adrian Jobst
   - Willy Scheibel
   - Daniel Limberger
+  - Matthias Trapp
   - Jürgen Döllner
-  published: 'VISIGRAPP 2021: Computer Vision, Imaging and Computer Graphics Theory and Applications'
+  published: Proc. Int. Conf. on Information Visualization Theory and Applications (IVAPP)
   abstract:
-    For various program comprehension tasks, software visualization techniques can be beneficial by displaying aspects related to the behavior, structure, or evolution of software. 
-    In many cases, the question is related to the semantics of the source code files, e.g., the localization of files that implement specific features or the detection of files with similar semantics. 
-    This work presents a general software visualization technique for source code documents, which uses 3D glyphs placed on a two-dimensional reference plane. 
-    The relative positions of the glyphs captures their semantic relatedness. 
-    Our layout originates from applying Latent Dirichlet Allocation and Multidimensional Scaling on the comments and identifier names found in the source code files. 
-    Though different variants for 3D glyphs can be applied, we focus on cylinders, trees, and avatars. 
-    We discuss various mappings of data associated with source code documents to the visual variables of 3D glyphs for selected use cases and provide details on our visualization system. 
-  thumbnail: 2023-ivapp-software-forest-extended.webp
+    In order to detect software risks at an early stage, various software visualization techniques have been developed for monitoring the structure, behaviour, or the underlying development process of software.
+    One of greatest risks for any IT organization consists in an inappropriate distribution of knowledge among its developers, as a projects' success mainly depends on assigning tasks to developers with the required skills and expertise.
+    In this work, we address this problem by proposing a novel Visual Analytics framework for mining and visualizing the expertise of developers based on their source code activities.
+    Under the assumption that a developer's knowledge about code is represented directly through comments and the choice of identifier names, we generate a 2D layout using Latent Dirichlet Allocation together with Multidimensional Scaling on the commit history, thus displaying 
+    the semantic relatedness between developers.
+    In order to capture a developer's expertise in a concept, we utilize Labeled LDA trained on a corpus of Open Source projects.
+    By mapping aspects related to skills onto the visual variables of 3D glyphs, we generate a 2.5D Visualization, we call KnowhowMap.
+    We exemplify this approach with an interactive prototype that enables users to analyze the distribution of skills and expertise in an explorative way.
+  thumbnail: 2022-ivapp-knowhow-map.webp
+  downloads:
+    - href: https://doi.org/10.5220/0010991100003124
+      desc: DOI
+    - href: https://www.researchgate.net/profile/Matthias-Trapp-2/publication/358523984/inline/jsViewer/62061c62afa8884cabd8675c
+      desc: Paper
 
 - key: 2022-iccsa-prometheus
   bibtex: jobst2022-github-crawling
