@@ -151,7 +151,7 @@ publications:
   
 - key: 2021-ivapp-software-forest
   bibtex: atzberger2021-software-forest
-  title: 'Software Forest: A Visualization of Semantic Similarities in Source Code using a Tree Metaphor (in context of the Master's Project)'
+  title: 'Software Forest: A Visualization of Semantic Similarities in Source Code using a Tree Metaphor (in context of the Master`s Project)'
   date: '2021-01-01'
   authors:
   - Daniel Atzberger
