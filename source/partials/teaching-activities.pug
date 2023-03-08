@@ -127,8 +127,8 @@ if selected === true
           tr
             th(scope = 'col').pe-2 #[span.d-block.d-lg-none Focus]#[span.d-none.d-lg-block Teaching Focus]
             th(scope = 'col').ps-2 #[span.d-block.d-lg-none Role]#[span.d-none.d-lg-block Active Role]
-            th(scope = 'col').ba #[span.d-block.d-lg-none Bachelor]#[span.d-none.d-lg-block Bachelors's Program]
-            th(scope = 'col').ma #[span.d-block.d-lg-none Master]#[span.d-none.d-lg-block Masters's Program]
+            th(scope = 'col').ba #[span.d-block.d-lg-none Bachelor]#[span.d-none.d-lg-block Bachelor Program]
+            th(scope = 'col').ma #[span.d-block.d-lg-none Master]#[span.d-none.d-lg-block Master Program]
         tbody
           // tr
             td(rowspan = '2').border-end.pe-2 #[span.text-muted Real-time] Computer Graphics
@@ -147,11 +147,11 @@ if selected === true
             +tdStats(grades.ba.xai.others, grades.ma.xai.others)
         tfoot
           tr
-            td.pe-2 #[span.text-muted Bachelor's and Master's] Projects
+            td.pe-2 #[span.text-muted Bachelor and Master] Projects
             td.ps-2 Supervisor
             +tdStats(grades.ba.projects, grades.ma.projects)
           tr
-            td.pe-2 #[span.text-muted Bachelor's and Master's] Theses
+            td.pe-2 #[span.text-muted Bachelor and Master] Theses
             td.ps-2 Supervisor
             +tdStats(grades.ba.theses, grades.ma.theses)
 
