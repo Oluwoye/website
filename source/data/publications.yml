@@ -28,7 +28,7 @@ publications:
          The results further show that supervised algorithms can outperform unsupervised approaches on all projects. Among all unsupervised approaches, the Isolation Forest achieves the best accuracy on 10 out of 11 projects. 
     
     In press 
-  thumbnail: 2023-swqd-defect-prediction.png
+  thumbnail: 2023-swqd-defect-prediction.webp
 
 - key: 2023-ivapp-evaluating-ssnp
   bibtex: cech23-ssnp-architectures
@@ -48,6 +48,11 @@ publications:
     model's architecture and the choice of hyperparameter values can influence the layout with statistical significance, but none achieves the best result over all metrics. In addition, we found out that using outlier information for the pseudo-labeling approach can maintain 
     global properties of the two-dimensional layout while trading-off local properties.
   thumbnail: 2023-ivapp-evaluating-ssnp.webp
+  downloads:
+    - href: https://doi.org/10.5220/0011699700003417
+      desc: DOI
+    - href: https://www.scitepress.org/PublicationsDetail.aspx?ID=XGZYXVwPfcQ=&t=1
+      desc: Paper
 
 - key: 2022-vinci-topicmodel-benchmark
   bibtex: atzberger2022-topicmodel-benchmark
