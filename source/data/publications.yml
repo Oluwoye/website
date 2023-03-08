@@ -7,8 +7,8 @@ scholar: phn3_p8AAAAJ
 publications:
 
 
-- key: 2023-swqd
-  bibtex: cech23-ssnp-architectures
+- key: 2023-swqd-defect-prediction
+  bibtex: 2023-swqd
   title: 'Outlier Mining Techniques for Software Defect Prediction'
   date: ''
   authors:
