@@ -28,7 +28,7 @@ publications:
          The results further show that supervised algorithms can outperform unsupervised approaches on all projects. Among all unsupervised approaches, the Isolation Forest achieves the best accuracy on 10 out of 11 projects. 
     
     In press 
-    thumbnail: 2023-swqd-defect-prediction.png
+  thumbnail: 2023-swqd-defect-prediction.png
 
 - key: 2023-ivapp-evaluating-ssnp
   bibtex: cech23-ssnp-architectures
