@@ -21,7 +21,7 @@ translations:
 theses:
 
 - title: Natural Counterfactual Explanations
-  student: tba
+  student: Florence Böttger
   year: 2023
   tags: ma, thesis, supervisor
 
@@ -31,7 +31,9 @@ terms:
 - term: '2022/23 | Winter Term'
   courses:
   - course: Explainable AI by Visual Analytics
-    tags: xai, seminar, ma, tutor, supervisor
+    tags: xai, seminar, ma, tutor, supervisor, lecturer
+    grade_overall: 1.1
+    grade_personal: 1.0
     
 - term: '2022 | Summer Term'
   courses:
