@@ -16,7 +16,7 @@ publications:
   - Furkan Simsek
   - Willy Scheibel
   - Jürgen Döllner
-  published: '25th EG Conference on Visualization (2023)'
+  published: '25th EG Conference on Visualization (EuroVis 2023)'
   abstract:
     Quali-quantitative methods provide ways for interrogating Convolutional Neural Networks (CNN). For it, we propose a dashboard using a quali-quantitative method based on quantitative metrics and saliency maps. By those means, a user can discover patterns during the training of a CNN. With this, they can adapt the training hyperparameters of the model, obtaining a CNN that learned patterns desired by the user. Furthermore, they neglect CNNs which learned undesirable patterns. This improves users' agency over the model training process.
   thumbnail: 2023-eurovis-saliencnn.webp
