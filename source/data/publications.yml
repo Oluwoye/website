@@ -19,7 +19,7 @@ publications:
   published: '25th EG Conference on Visualization (2023)'
   abstract:
     Quali-quantitative methods provide ways for interrogating Convolutional Neural Networks (CNN). For it, we propose a dashboard using a quali-quantitative method based on quantitative metrics and saliency maps. By those means, a user can discover patterns during the training of a CNN. With this, they can adapt the training hyperparameters of the model, obtaining a CNN that learned patterns desired by the user. Furthermore, they neglect CNNs which learned undesirable patterns. This improves users' agency over the model training process.
-  thumbnail: 2023-eurovis-saliencnn.png
+  thumbnail: 2023-eurovis-saliencnn.webp
   downloads:
     - href: https://diglib.eg.org/handle/10.2312/evp20231054
       desc: Paper
@@ -63,7 +63,7 @@ publications:
   published: '18th International Conference on Evaluation of Novel Approaches to Software Engineering (ENASE 2023)'
   abstract:
     Continuous Integration and Continuous Delivery are best practices used during the DevOps phase. By using automated pipelines for building and testing small software changes, possible risks are intended to be detected early. Those pipelines continuously generate log events that are collected in semi-structured log files. In an industry context, these log files can amass 100,000 events and more. However, the relevant sections in these log files must be manually tagged by the user. This paper presents an online-learning approach for detecting relevant log events using Latent Dirichlet Allocation. After grouping a fixed number of log events in a document, our approach prunes the vocabulary to eliminate words without semantic meaning. A sequence of documents is then described as a discrete sequence by applying Latent Dirichlet Allocation, which allows the detection of outliers within the sequence. Our approach provides an explanation of the results by integrating the latent variables of the model. The approach is tested on log files that originate from a CI/CD pipeline of a large German company. Our results indicate that whether or not a log event is marked as an outlier heavily depends on the chosen hyperparameters of our model. 
-  thumbnail: 2023-enase-log-outlier.png
+  thumbnail: 2023-enase-log-outlier.webp
   downloads:
     - href: https://doi.org/10.5220/0011858500003464
       desc: DOI
