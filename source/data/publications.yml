@@ -7,6 +7,23 @@ scholar: phn3_p8AAAAJ
 publications:
 
 
+- key: 2023-eurovis-saliency-maps
+  bibtex: 2023-eurovis
+  title: 'Outlier Mining Techniques for Software Defect Prediction'
+  date: ''
+  authors:
+  - Tim Cech
+  - Furkan Simsek
+  - Willy Scheibel
+  - Jürgen Döllner
+  published: '25th EG Conference on Visualization (2023)'
+  abstract:
+Quali-quantitative methods provide ways for interrogating Convolutional Neural Networks (CNN). For it, we propose a dashboard using a quali-quantitative method based on quantitative metrics and saliency maps. By those means, a user can discover patterns during the training of a CNN. With this, they can adapt the training hyperparameters of the model, obtaining a CNN that learned patterns desired by the user. Furthermore, they neglect CNNs which learned undesirable patterns. This improves users' agency over the model training process.
+  thumbnail: 2023-eurovis-saliencnn.png
+  downloads:
+    - href: https://diglib.eg.org/handle/10.2312/evp20231054
+      desc: Paper
+
 - key: 2023-swqd-defect-prediction
   bibtex: 2023-swqd
   title: 'Outlier Mining Techniques for Software Defect Prediction'
@@ -25,10 +42,33 @@ publications:
       i.e., locating defect-prone source code units. We investigate the effect of various class balancing and feature compressing techniques as preprocessing steps and show how sliding windows can be used to capture time series of source code metrics.
        We evaluate the Isolation Forest and Local Outlier Factor, as representants of outlier mining techniques.
         Our experiments on three publicly available datasets, containing a total of 11 software projects, indicate that the consideration of time series can improve static examinations by up to 3%.
-         The results further show that supervised algorithms can outperform unsupervised approaches on all projects. Among all unsupervised approaches, the Isolation Forest achieves the best accuracy on 10 out of 11 projects. 
-    
-    In press 
+         The results further show that supervised algorithms can outperform unsupervised approaches on all projects. Among all unsupervised approaches, the Isolation Forest achieves the best accuracy on 10 out of 11 projects.  
   thumbnail: 2023-swqd-defect-prediction.webp
+  downloads:
+    - href: https://doi.org/10.1007/978-3-031-31488-9_3
+      desc: DOI
+    - href: https://link.springer.com/chapter/10.1007/978-3-031-31488-9_3
+      desc: Paper
+      
+- key: 2023-enase-outliers
+  bibtex: 2023-enase
+  title: 'Detecting Outliers in CI/CD Pipeline Logs using Latent Dirichlet Allocation'
+  date: ''
+  authors:
+  - Daniel Atzberger
+  - Tim Cech
+  - Willy Scheibel
+  - Rico Richter
+  - Jürgen Döllner
+  published: '18th International Conference on Evaluation of Novel Approaches to Software Engineering (ENASE 2023)'
+  abstract:
+Continuous Integration and Continuous Delivery are best practices used during the DevOps phase. By using automated pipelines for building and testing small software changes, possible risks are intended to be detected early. Those pipelines continuously generate log events that are collected in semi-structured log files. In an industry context, these log files can amass 100,000 events and more. However, the relevant sections in these log files must be manually tagged by the user. This paper presents an online-learning approach for detecting relevant log events using Latent Dirichlet Allocation. After grouping a fixed number of log events in a document, our approach prunes the vocabulary to eliminate words without semantic meaning. A sequence of documents is then described as a discrete sequence by applying Latent Dirichlet Allocation, which allows the detection of outliers within the sequence. Our approach provides an explanation of the results by integrating the latent variables of the model. The approach is tested on log files that originate from a CI/CD pipeline of a large German company. Our results indicate that whether or not a log event is marked as an outlier heavily depends on the chosen hyperparameters of our model. 
+  thumbnail: 2023-enase-log-outlier.png
+  downloads:
+    - href: https://doi.org/10.5220/0011858500003464
+      desc: DOI
+    - href: https://www.scitepress.org/Link.aspx?doi=10.5220/0011858500003464
+      desc: Paper
 
 - key: 2023-ivapp-evaluating-ssnp
   bibtex: cech23-ssnp-architectures
