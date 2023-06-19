@@ -9,7 +9,7 @@ publications:
 
 - key: 2023-eurovis-saliency-maps
   bibtex: 2023-eurovis
-  title: 'Outlier Mining Techniques for Software Defect Prediction'
+  title: 'A Dashboard for Interactive Convolutional Neural Network Training And Validation Through Saliency Maps'
   date: ''
   authors:
   - Tim Cech
