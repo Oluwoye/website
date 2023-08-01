@@ -74,6 +74,8 @@ publications:
     Quali-quantitative methods provide ways for interrogating Convolutional Neural Networks (CNN). For it, we propose a dashboard using a quali-quantitative method based on quantitative metrics and saliency maps. By those means, a user can discover patterns during the training of a CNN. With this, they can adapt the training hyperparameters of the model, obtaining a CNN that learned patterns desired by the user. Furthermore, they neglect CNNs which learned undesirable patterns. This improves users' agency over the model training process.
   thumbnail: 2023-eurovis-saliencnn.webp
   downloads:
+    - href: https://doi.org/10.2312/evp.20231054
+      desc: DOI
     - href: https://diglib.eg.org/handle/10.2312/evp20231054
       desc: Paper
 
@@ -193,6 +195,12 @@ publications:
     Though different variants for 3D glyphs can be applied, we focus on cylinders, trees, and avatars. 
     We discuss various mappings of data associated with source code documents to the visual variables of 3D glyphs for selected use cases and provide details on our visualization system. 
   thumbnail: 2023-ivapp-software-forest-extended.webp
+  downloads:
+    - href: https://doi.org/10.1007/978-3-031-25477-2_8
+      desc: DOI
+    - href: https://www.researchgate.net/publication/363174745_CodeCV_Mining_Expertise_of_GitHub_Users_from_Coding_Activities#fullTextFileContent
+      desc: Paper
+  
 
 - key: 2022-scam-codecv
   bibtex: atzberger2022-mining-expertise
@@ -214,6 +222,11 @@ publications:
     concept-specific vocabulary in identifier names and comments. This enables the capture of expertise on abstract concepts from a user's commit history. CodeCV further explains the results through links to the relevant commits in an interactive web dashboard. We tested our 
     system on selected GitHub users who mainly contribute to popular projects to demonstrate that our approach is able to capture developers' expertise effectively.
   thumbnail: 2022-scam-codecv.webp
+  downloads:
+    - href: https://doi.org/10.1109/SCAM55253.2022.00021
+      desc: DOI
+    - href: https://www.researchgate.net/publication/363175014_Visualization_of_Source_Code_Similarity_using_25D_Semantic_Software_Maps#fullTextFileContent
+      desc: Paper
   
 - key: 2022-ivapp-knowhow-map
   bibtex: atzberger2022-knowhow-map
