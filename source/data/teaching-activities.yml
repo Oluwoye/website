@@ -28,6 +28,16 @@ theses:
 
 terms:
 
+- term: '2023/24 | Winter Term'
+  courses:
+  - course: Explaining and Visualizing AI
+    tags: xai, seminar, ma, tutor, supervisor, lecturer
+
+- term: '2023 | Summer Term'
+  courses:
+  - course: Erklärbare künstliche Intelligenz":" Methoden, Praktiken, Risiken
+    tags: xai, seminar, ba, tutor, supervisor, lecturer
+
 - term: '2022/23 | Winter Term'
   courses:
   - course: Explainable AI by Visual Analytics
