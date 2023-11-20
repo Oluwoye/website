@@ -32,11 +32,20 @@ terms:
   courses:
   - course: Explaining and Visualizing AI
     tags: xai, seminar, ma, tutor, supervisor, lecturer
+    
+- term: '2023 | Summer Term'
+  courses:
+  - course: 'Methods and Techniques for Visual Analyticsn'
+    tags: xai, seminar, ma, tutor, supervisor, lecturer
+    grade_overall: 1.2
+    grade_personal: 1.0
 
 - term: '2023 | Summer Term'
   courses:
   - course: 'Erklärbare künstliche Intelligenz: Methoden, Praktiken, Risiken'
     tags: xai, seminar, ba, tutor, supervisor, lecturer
+    grade_overall: 1.2
+    grade_personal: 1.1
 
 - term: '2022/23 | Winter Term'
   courses:
