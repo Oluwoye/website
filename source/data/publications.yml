@@ -6,9 +6,25 @@ scholar: phn3_p8AAAAJ
 
 publications:
 
+- key: 2023-kdir-counterfactuals
+  bibtex: 2023-kdir-counterfactuals
+  title: 'Visual Counterfactual Explanations Using Semantic Part Locations (Best Student Paper Award)'
+  date: ''
+  authors:
+  - Florence Böttger
+  - Tim Cech
+  - Willy Scheibel
+  - Jürgen Döllner
+  published: '15th International Conference on Knowledge Discovery and Information Retrieval (KDIR 2023)'
+  abstract:
+    'As machine learning models are becoming more widespread and see use in high-stake decisions, the explainability of these decisions is getting more relevant. One approach for explainability are counterfactual explanations. They are defined as changes to a data point such that it appears as a different class. Their close connection to the original dataset aids their explainability. However, existing methods of creating counterfacual explanations often rely on other machine learning models, which adds an additional layer of opacity to the explanations. We propose additions to an established pipeline for creating visual counterfacual explanations by using an inherently explainable algorithm that does not rely on external models. Using annotated semantic part locations, we replace parts of the counterfactual creation process. We evaluate the approach on the CUB-200-2011 dataset. Our approach outperforms the previous results: we improve (1) the average number of edits by 0.1 edits, (2) the key point accuracy of editing within any semantic parts of the image by an average of at least 7 percentage points, and (3) the key point accuracy of editing the same semantic parts by at least 17 percentage points. 
+    
+    In press'  
+  thumbnail: 2023-kdir-counterfactuals.webp
+
 - key: 2023-kdir-unblock
   bibtex: 2023-kdir-unblock
-  title: 'unCover: Identifying AI Generated News Articles by Linguistic Analysis and Visualization'
+  title: 'unCover: Identifying AI Generated News Articles by Linguistic Analysis and Visualization (Best Paper Award Nomination)'
   date: ''
   authors:
   - Lucas Liebe
@@ -23,22 +39,6 @@ publications:
     
     In press'  
   thumbnail: 2023-kdir-uncover.webp
-
-- key: 2023-kdir-counterfactuals
-  bibtex: 2023-kdir-counterfactuals
-  title: 'Visual Counterfactual Explanations Using Semantic Part Locations'
-  date: ''
-  authors:
-  - Florence Böttger
-  - Tim Cech
-  - Willy Scheibel
-  - Jürgen Döllner
-  published: '15th International Conference on Knowledge Discovery and Information Retrieval (KDIR 2023)'
-  abstract:
-    'As machine learning models are becoming more widespread and see use in high-stake decisions, the explainability of these decisions is getting more relevant. One approach for explainability are counterfactual explanations. They are defined as changes to a data point such that it appears as a different class. Their close connection to the original dataset aids their explainability. However, existing methods of creating counterfacual explanations often rely on other machine learning models, which adds an additional layer of opacity to the explanations. We propose additions to an established pipeline for creating visual counterfacual explanations by using an inherently explainable algorithm that does not rely on external models. Using annotated semantic part locations, we replace parts of the counterfactual creation process. We evaluate the approach on the CUB-200-2011 dataset. Our approach outperforms the previous results: we improve (1) the average number of edits by 0.1 edits, (2) the key point accuracy of editing within any semantic parts of the image by an average of at least 7 percentage points, and (3) the key point accuracy of editing the same semantic parts by at least 17 percentage points. 
-    
-    In press'  
-  thumbnail: 2023-kdir-counterfactuals.webp
 
 - key: 2023-ieeevis-drs
   bibtex: 2023-ieeevis
