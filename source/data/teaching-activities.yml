@@ -35,7 +35,7 @@ terms:
     
 - term: '2023 | Summer Term'
   courses:
-  - course: 'Methods and Techniques for Visual Analyticsn'
+  - course: 'Methods and Techniques for Visual Analytics'
     tags: xai, seminar, ma, tutor, supervisor, lecturer
     grade_overall: 1.2
     grade_personal: 1.0
