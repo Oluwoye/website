@@ -20,18 +20,30 @@ translations:
 
 theses:
 
-- title: Natural Counterfactual Explanations
+- title: 'Natural Counterfactual Explanations'
   student: Florence Böttger
   year: 2023
   tags: ma, thesis, supervisor
+  
+- title: 'Entwurf und Implementierung einer Visualisierung von Faktoren für Uncertainty in der Entwicklung eines Tools zur Generierung von SQL Queries aus natürlichsprachlichen Anfragen auf EHRs'
+  student: Florence Böttger
+  year: 2024
+  tags: ba, thesis, supervisor
 
 
 terms:
+
+- term: '2024 | Summer Term'
+  courses:
+  - course: 'Erklärbare künstliche Intelligenz: Methoden, Praktiken, Risiken'
+    tags: xai, seminar, ba, tutor, supervisor, lecturer
 
 - term: '2023/24 | Winter Term'
   courses:
   - course: Explaining and Visualizing AI
     tags: xai, seminar, ma, tutor, supervisor, lecturer
+    grade_overall: 1.2
+    grade_personal: 1.0
     
 - term: '2023 | Summer Term'
   courses:
