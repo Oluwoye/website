@@ -58,7 +58,7 @@ publications:
   - Jürgen Döllner
   published: '26th EG Conference on Visualization (EuroVis 2024)'
   abstract:
-    'Machine Learning models underlie a trade-off between accurracy and explainability. Given a trained, complex model, we contribute a dashboard that supports the process to derive more explainable models, here: Fast-and-Frugal Trees, with further introspection using feature importances and spurious correlation analyses. The dashboard further allows to iterate over the feature selection and assess the trees' performance in comparison to the complex model.'
+    'Machine Learning models underlie a trade-off between accurracy and explainability. Given a trained, complex model, we contribute a dashboard that supports the process to derive more explainable models, here: Fast-and-Frugal Trees, with further introspection using feature importances and spurious correlation analyses. The dashboard further allows to iterate over the feature selection and assess the trees performance in comparison to the complex model.'
   thumbnail: 2024-eurovis-fisc.webp
   downloads:
     - href: https://doi.org/10.2312/evp.20241075
