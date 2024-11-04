@@ -12,7 +12,7 @@ The complete site's content is based on a json/yaml file per section (e.g., `con
 * [Willy Scheibel](http://www.willyscheibel.de)
 * [Amir Semmo](http://www.amirsemmo.de)
 * [Maximilian Söchting](http://msoechting.de)
-* [Tim Cech](http://timcech.de)
+* [Tim Barz-Cech](http://timcech.de)
 
 
 ## Features
