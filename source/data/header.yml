@@ -2,7 +2,7 @@
 
 picture: timcech.webp
 picture_input: timcech.webp
-picture_label: Photo of Tim Cech, July 2021
+picture_label: Photo of Tim Barz-Cech, July 2021
 picture_copyright: 
 
 # picture: daniel-limberger-2016-02.webp
@@ -19,7 +19,7 @@ picture_copyright:
 
 
 name: Tim
-surname: Cech
+surname: Barz-Cech
 leads:
 - Data Engineer
 - Critical Artificial Intelligence Researcher
