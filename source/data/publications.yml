@@ -6,6 +6,26 @@ scholar: phn3_p8AAAAJ
 
 publications:
 
+- key: atzberger2025-topic-model-influence-extended
+  bibtex: atzberger2025-topic-model-influence-extended
+  title: 'Evaluating Text Embeddings for Two-Dimensional Text Corpora Representations'
+  date: ''
+  authors:
+  - Daniel Atzberger
+  - Tim Barz-Cech
+  - Willy Scheibel
+  - Jürgen Döllner
+  - Tobias Schreck
+  published: 'SAGE Information Visualization (IVI)'
+  abstract:
+    'Several text corpus visualizations utilize a map-like metaphor, where the layout reflects the semantic similarity between documents. The underlying two-dimensional scatterplots are created by combining a latent embedding with a subsequent dimensionality reduction. In this work, we analyze the impact of embedding quality on layout quality. We evaluate the accuracy of the layout, specifically the preservation of local and global structures of the text corpus in its two-dimensional representation. Additionally, we assess class separation, focusing on the effectiveness of distinguishing classes within the two-dimensional space. We introduce a benchmark B = (D, L, QE , QDR) consisting of a collection of text corpora D, a set of layout algorithms L that combine text embeddings with dimensionality reductions, quality metrics QE for evaluating text embeddings, and quality metrics QDR for assessing accuracy and class separation. We generate a multivariate dataset by evaluating this benchmark, which we further analyze in a descriptive analysis. Our results indicate that, for Latent Semantic Indexing combined with tf-idf weighting and t-distributed Stochastic Neighbor Embedding, coherence plays a substantial role in determining the accuracy of the layout. Additionally, our findings reveal that embeddings do not enhance class separation in the two-dimensional scatterplot representation. As main result, we provide more fine-grained guidelines for effectively utilizing text embeddings and dimensionality reduction techniques to generate two-dimensional scatterplot representations of text corpora reflecting semantic similarity.'
+  thumbnail: 2025-ivi-topic-model-influence-extended.webp
+  downloads:
+    - href: https://doi.org/10.1177/14738716251355650
+      desc: DOI
+    - href: https://doi.org/10.1177/14738716251355650
+      desc: Paper (in press)
+
 - key: acstrds2025-evaluation-tm-dr
   bibtex: acstrds2025-evaluation-tm-dr
   title: 'A Large-Scale Sensitivity Analysis on Latent Embeddings and Dimensionality Reductions for Text Spatializations'
