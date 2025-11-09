@@ -6,6 +6,36 @@ scholar: phn3_p8AAAAJ
 
 publications:
 
+- key: dissertation-barz-cech
+  bibtex: dissertation-barz-cech
+  title: 'On the Relationship of Explainable Artificial Intelligence and Essential Complexity Using Metadata, Visualization, and Transparent Models – Framework and Tools'
+  date: ''
+  authors:
+  - Tim Barz-Cech
+  published: 'Library of the University of Potsdam (Dissertations)'
+  abstract: 'This thesis examines strategies for enhancing transparency and interpretability in Explainable AI (XAI) by emphasizing essential complexity as a key factor for developing appropriate explanation methods. While universal methods can explain many models, they cannot easily represent the user’s ability to understand the use case and the subsequent explanations. Therefore, we favor sensitive and user-centered methods that differentiate accidental and essential complexity. Accidental complexity refers to misunderstandings that technical design improvements could avoid, while essential complexity focuses on unknown unknowns that describe a user’s ability to verify the explanations provided by XAI systems. Therefore, essential complexity shapes adequate explanations on a more fundamental level. Essential complexity is explored across three distinct scenarios. In cases of low essential complexity, traditional XAI methods benefit significantly from incorporating semantic metadata, enabling richer, more precise explanations. In cases of medium essential complexity, Dimensionality Reduction techniques are used to assess whether a problem aligns more closely with low or high essential complexity, ensuring that the chosen methods are effective. We present a large computational benchmark for Dimensionality Reduction techniques to obtain reliably effective layouts. In cases of high essential complexity, we favor interpretable models that provide clarity, foster trust, and support decision-making in high-stakes contexts. The thesis combines semantic-based explanations, visualization techniques, and interpretable models to develop tools that enhance the comprehensibility and usability of XAI techniques. Methodological insights are provided on aligning explanation techniques with the complexity of use cases, considering technical and human factors. A user-focused perspective is applied, addressing practical challenges such as quantifying essential complexity and limiting current explanation frameworks. These findings are supported by case studies demonstrating this structured explanation approach’s practical implications and benefits. Specifically, we examine language recognition of Large Language Models, counterfactual explanations for identifying bird species, and model simplification, e.g., for software defect prediction and log mining. The findings emphasize the importance of different explanation methods, reflecting the requirements of diverse applications and providing impulses for further interdisciplinary research.'
+  thumbnail: Dissertation.webp
+  downloads:
+    - href: https://doi.org/10.25932/publishup-68952
+      desc: DOI
+    - href: https://doi.org/10.25932/publishup-68952
+      desc: Paper
+
+- key: kbcy-2025-right-to-distrust
+  bibtex: kbcy-2025-right-to-distrust
+  title: 'The Right to Distrust: Designing Clinical AI for Robust Comparison'
+  date: ''
+  authors:
+  - Cornelia C. Käsbohrer
+  - Tim Barz-Cech
+  - Lili Jiang
+  published: 'The European Workshop on Trustworthy AI'
+  abstract: 'Many clinicians remain hesitant to rely on AI systems in high-stakes decision-making, particularly when models are opaque or poorly aligned with clinical reasoning. A common approach to achieve this often relies on visual add-ons such as saliency maps in the context of medical imaging. However, we argue that such efforts fall short, since saliency maps are correlational, difficult to interpret, and disconnected from the causal logic that physicians apply when deciding whether to biopsy or treat a lesion. We call for a shift in focus. Rather than trying to persuade physicians to trust AI, we should consider which forms of distrust are justified. Specifically, we propose that causal, counterfactual explanations presented via familiar, image-based interfaces provide a more robust basis for justified reliance. We present a design and evaluation plan for an interactive cancer imaging viewer that facilitates counterfactual exploration and causal reasoning. We also propose practical methods for measuring its impact on physician trust.'
+  thumbnail: 2025-right-to-distrust.webp
+  downloads:
+    - href: https://drive.google.com/file/d/1wj7fFFMUIWpdi3I9R9cpMxXqCDvx6iwy/view
+      desc: Paper
+
 - key: atzberger2025-topic-model-influence-extended
   bibtex: atzberger2025-topic-model-influence-extended
   title: 'Evaluating Text Embeddings for Two-Dimensional Text Corpora Representations'
@@ -24,7 +54,7 @@ publications:
     - href: https://doi.org/10.1177/14738716251355650
       desc: DOI
     - href: https://doi.org/10.1177/14738716251355650
-      desc: Paper (in press)
+      desc: Paper
 
 - key: acstrds2025-evaluation-tm-dr
   bibtex: acstrds2025-evaluation-tm-dr
