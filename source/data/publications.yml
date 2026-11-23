@@ -6,6 +6,22 @@ scholar: phn3_p8AAAAJ
 
 publications:
 
+- key: 2026-sigspatial-aviary
+  bibtex: 2026-sigspatial-aviary
+  title: 'aviary: A Modular Framework for ML Inference on Geospatial Data'
+  date: ''
+  authors:
+  - Marius Maryniak
+  - Alexander Roß
+  - Tim Barz-Cech
+  - Christian Kuhlmann
+  published: 'ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems 2026 (SIGSPATIAL 2026)'
+  abstract: 'Geospatial data has become increasingly available, while advances in Machine Learning (ML) have substantially improved the ability to derive meaningful insights from such data. However, the operationalization of geospatial ML models remains inefficient and fragmented. It often relies on redundant application-specific implementations that address data access, model execution, and other geospatial and ML-related processing steps without standardized and reusable abstractions. To address these challenges, we propose aviary, a modular framework for geospatial ML inference. Aviary provides domain-specific abstractions consisting of core types that represent geospatial data, reusable components that operate on these core types, and configurable pipelines that orchestrate the execution of these components. The framework is agnostic to specific tasks, modalities, and ML backends. It includes commonly required functionality such as reading and writing raster and vector data as well as ML-related pre- and postprocessing. Furthermore, it supports the integration of custom functionality through extensibility mechanisms. Both programmatic and non-programmatic interaction are supported through a high-level Python Application Programming Interface (API) and a configuration-driven Command-Line Interface (CLI), respectively. Four application scenarios illustrate the applicability of the framework. Aviary is open source and available on GitHub (github.com/geospaitial-lab/aviary).'
+  thumbnail: 2026-sigspatial-aviary.webp
+  downloads:
+    - href: drive.google.com/file/d/101punJjR5wRXxwnsbqDySs9nN4wpRrLI/view?usp=drivesdk
+      desc: Paper
+
 - key: 2026-vinci-change-identification
   bibtex: 2026-vinci-change-identification
   title: 'Quantitative Evaluation of Comparative Visualization Methods for Change Identification in Multi-Temporal Point Clouds'
