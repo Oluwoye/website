@@ -38,6 +38,13 @@ theses:
 
 terms:
 
+- term: '2026 | Summer Term'
+  courses:
+  - course: 'Intelligente Systeme'
+    tags: xai, lecture, ba, lecturer
+    grade_overall: 1.5
+    grade_personal: 1.0
+
 - term: '2025 | Summer Term'
   courses:
   - course: 'Erklärbare künstliche Intelligenz: Methoden, Praktiken, Risiken'
